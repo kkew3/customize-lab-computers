@@ -1,0 +1,11 @@
+syntax on
+filetype indent plugin on
+set laststatus=2
+set ruler
+set autoread
+set number
+set showcmd
+set cc=79
+
+" search for visually selected text by typing // in visual mode
+vnoremap // y/<C-R>"<CR>
